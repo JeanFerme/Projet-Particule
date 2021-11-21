@@ -1,0 +1,19 @@
+﻿  ForceForEach.cpp
+C:\Users\cress\source\repos\Projet Particule\Projet Particule\ParticleSystem.h(22,21): error C2061: erreur de syntaxe : identificateur 'Force'
+C:\Users\cress\source\repos\Projet Particule\Projet Particule\ParticleSystem.h(29,25): error C2065: 'Force' : identificateur non déclaré
+C:\Users\cress\source\repos\Projet Particule\Projet Particule\ParticleSystem.h(29,7): error C2923: 'std::reference_wrapper' : 'Force' n'est pas un argument de type modèle valide pour le paramètre '_Ty'
+C:\Users\cress\source\repos\Projet Particule\Projet Particule\ParticleSystem.h(29,7): error C3203: 'reference_wrapper' : la classe modèle non spécialisée ne peut pas être utilisée comme argument modèle pour le paramètre modèle '_Ty' ; type réel attendu
+C:\Users\cress\source\repos\Projet Particule\Projet Particule\ParticleSystem.h(30,25): error C2065: 'ParticleHandler' : identificateur non déclaré
+C:\Users\cress\source\repos\Projet Particule\Projet Particule\ParticleSystem.h(30,7): error C2923: 'std::reference_wrapper' : 'ParticleHandler' n'est pas un argument de type modèle valide pour le paramètre '_Ty'
+C:\Users\cress\source\repos\Projet Particule\Projet Particule\ParticleSystem.h(30,7): error C3203: 'reference_wrapper' : la classe modèle non spécialisée ne peut pas être utilisée comme argument modèle pour le paramètre modèle '_Ty' ; type réel attendu
+  ForceGravity.cpp
+  ParticleHandler.cpp
+C:\Users\cress\source\repos\Projet Particule\Projet Particule\Force\ForceForEach.h(5,38): error C2504: 'ParticleHandler' : classe de base non définie
+C:\Users\cress\source\repos\Projet Particule\Projet Particule\Force\ForceForEach.h(7,7): error C2061: erreur de syntaxe : identificateur 'ParticleSystem'
+C:\Users\cress\source\repos\Projet Particule\Projet Particule\Force\ForceForEach.h(13,14): error C2061: erreur de syntaxe : identificateur 'ParticleSystem'
+C:\Users\cress\source\repos\Projet Particule\Projet Particule\ParticleSystem.h(30,25): error C2065: 'ParticleHandler' : identificateur non déclaré
+C:\Users\cress\source\repos\Projet Particule\Projet Particule\ParticleSystem.h(30,7): error C2923: 'std::reference_wrapper' : 'ParticleHandler' n'est pas un argument de type modèle valide pour le paramètre '_Ty'
+C:\Users\cress\source\repos\Projet Particule\Projet Particule\ParticleSystem.h(30,7): error C3203: 'reference_wrapper' : la classe modèle non spécialisée ne peut pas être utilisée comme argument modèle pour le paramètre modèle '_Ty' ; type réel attendu
+  ParticleSystem.cpp
+  Test.cpp
+  Génération de code en cours...

@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers sources\Force">
+      <UniqueIdentifier>{c910e9bd-f7a4-4b27-9f1e-ed76771b8df8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Force">
+      <UniqueIdentifier>{c1f4f637-f53d-4638-96ba-a851196696bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Integrator">
+      <UniqueIdentifier>{528f865a-f103-4b3d-b939-4d3a1722aa9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Integrator">
+      <UniqueIdentifier>{9669e680-66e6-429c-80d0-9a71878e7d89}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Test.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleHandler.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Force\ForceForEach.cpp">
+      <Filter>Fichiers sources\Force</Filter>
+    </ClCompile>
+    <ClCompile Include="Force\ForceGravity.cpp">
+      <Filter>Fichiers sources\Force</Filter>
+    </ClCompile>
+    <ClCompile Include="Integrator\Derivable.cpp">
+      <Filter>Fichiers sources\Integrator</Filter>
+    </ClCompile>
+    <ClCompile Include="Integrator\Integrator.cpp">
+      <Filter>Fichiers sources\Integrator</Filter>
+    </ClCompile>
+    <ClCompile Include="Integrator\Euler.cpp">
+      <Filter>Fichiers sources\Integrator</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Particle.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleHandler.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Force\ForceForEach.h">
+      <Filter>Fichiers d%27en-tête\Force</Filter>
+    </ClInclude>
+    <ClInclude Include="Force\ForceGravity.h">
+      <Filter>Fichiers d%27en-tête\Force</Filter>
+    </ClInclude>
+    <ClInclude Include="Integrator\Derivable.h">
+      <Filter>Fichiers d%27en-tête\Integrator</Filter>
+    </ClInclude>
+    <ClInclude Include="Integrator\Integrator.h">
+      <Filter>Fichiers d%27en-tête\Integrator</Filter>
+    </ClInclude>
+    <ClInclude Include="Integrator\Euler.h">
+      <Filter>Fichiers d%27en-tête\Integrator</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
